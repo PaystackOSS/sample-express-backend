@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sample-mobile-backend
+    name: sample-express-backend
     env: node
     region: oregon
     plan: free

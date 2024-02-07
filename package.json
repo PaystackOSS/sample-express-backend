@@ -1,6 +1,9 @@
 {
-  "name": "sample-mobile-backend",
+  "name": "sample-express-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {

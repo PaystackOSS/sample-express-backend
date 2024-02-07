@@ -1,7 +1,7 @@
 {
-    "name": "Sample Mobile Backend",
-    "description": "For creating transactions to be completed via the Paystack mobile SDKs",
-    "repository": "https://github.com/paystackoss/sample-mobile-backend",
+    "name": "Sample Express Backend",
+    "description": "Simple Express server for creating transactions with Paystack",
+    "repository": "https://github.com/paystackoss/sample-express-backend",
     "keywords": ["ios", "android", "node", "express", "paystack"],
     "env": {
       "PAYSTACK_SECRET_KEY": {
