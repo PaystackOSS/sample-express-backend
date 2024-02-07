@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: sample-mobile-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    envVars:
+      - key: PAYSTACK_SECRET_KEY
+        sync: false # placeholder for a value to be added in the dashboard
