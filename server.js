@@ -44,6 +44,6 @@ app.post('/webhook', async (req, res) => {
   // process webhook
 });
 
-app.listen(5001, () => {
+app.listen( process.env.PORT || 5001, () => {
   console.log(`App running on http://localhost:5001`);
 });

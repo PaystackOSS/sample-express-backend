@@ -1,4 +1,4 @@
-# Example Mobile Backend
+# Paystack Sample Mobile Backend
 
 This is a simple [Express](https://expressjs.com/) app that you can use to run a backend for initializing transactions to complete via the Paystack mobile SDKs. To get started, you can choose from the following options:
 
