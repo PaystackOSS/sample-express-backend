@@ -61,22 +61,22 @@ We have a pre-built Docker image you can run locally if you're into the convenie
 
 In order to receive notifications for successful transactions, you'll need to set your webhook URL on your Paystack dashboard.
 
-### Render
+**Render**
 
 1. Find the URL of your Render web service on the service's dashboard
 2. Set your webhook URL [on your Paystack dashboard]() to {YOUR_RENDER_SERVICE_URL}/webhook.
 
-### Heroku
+**Heroku**
 
 1. Find the URL of your Heroku app on the app's Settings page (under Domains)
 2. Set your webhook URL [on your Paystack dashboard]() to {YOUR_HEROKU_APP_URL}/webhook.
 
-### Local
+**Local**
 
 1. Your Paystack Webhook URL has to be an `https` URL, so you'll need to use a service like [ngrok's `http` endpoints](https://ngrok.com/docs/http/#overview) to generate an `https` URL and tunnel requests to your local machine. This is out of the scope of this tutorial, but the ngrok documentation shows how to do this.
 2. Once you've obtained your ngrok `https` URL, set your webhook URL [on your Paystack dashboard]() to {YOUR_NGROK_URL}/webhook.
 
-### Docker
+**Docker**
 1. Follow the same instructions under [Local](#docker)
 
 First, set your webhook URL on your Paystack dashboard. This will ensure your server receives notifications for successful transactions. 
